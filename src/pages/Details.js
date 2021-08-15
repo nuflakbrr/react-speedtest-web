@@ -1,5 +1,5 @@
 import React from "react";
-import { siteContext } from "../contexts/siteContexts";
+import { siteContext } from "../contexts/SiteContexts";
 import { Redirect } from "react-router-dom";
 import AuditsCard from "../components/AuditsCard";
 import MainLayout from "../layouts/MainLayout";
