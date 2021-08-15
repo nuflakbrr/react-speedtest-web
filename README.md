@@ -6,10 +6,10 @@ Create React Website Speed Test App.
 
 Contributors names and contact info
 
-Original Scripts by <br />
+Original scripts by <br />
 Rahmat Agung Julians | [@rahmatagungj](https://github.com/rahmatagungj)
 
-Convert from TypeScript to JavaScript by <br />
+Convert scripts from TypeScript to JavaScript by <br />
 Naufal Akbar Nugroho | [@kbrnugroho](https://instagram.com/kbrnugroho)
 
 ## Version History
