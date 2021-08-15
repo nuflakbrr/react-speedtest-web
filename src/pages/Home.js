@@ -32,8 +32,8 @@ const Home = () => {
         <section className="m-auto">
           <div className="container flex flex-col px-5 py-8 mx-auto lg:items-center">
             <div className="flex flex-col w-full mb-8 text-left lg:text-center justify-center">
-              <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter text-gray-100 lg:w-5/6 sm:text-6xl title-font">Website Speed Test</h1>
-              <p className="mx-auto text-base font-medium leading-relaxed text-gray-200 lg:w-5/6 text-center">Semakin cepat loading website, semakin bagus nilai website Anda di penilaian Google.</p>
+              <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter text-gray-100 lg:w-5/6 sm:text-5xl title-font">Tes Kecepatan Website</h1>
+              <p className="mx-auto text-base font-normal leading-relaxed text-gray-200 lg:w-5/6 text-center">Semakin cepat pemuatan website, semakin tinggi nilai website anda di penilaian Google.</p>
               <div className="mt-10" />
               {isError && (
                 <div className="p-2 justify-center flex flex-row">
