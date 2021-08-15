@@ -1,16 +1,16 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import axios from "axios";
-import { siteContext } from "../contexts/siteContext";
+import { siteContext } from "../contexts/siteContexts";
 import { useHistory } from "react-router-dom";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const Home = () => {
   const { setSiteData } = React.useContext(siteContext);
-  const [isLoading, setIsLoading] = React.useState < boolean > false;
-  const [isError, setIsError] = React.useState < boolean > false;
-  const url = (React.useRef < HTMLInputElement) | (null > null);
+  const [isLoading, setIsLoading] = React.useState(false);
+  const [isError, setIsError] = React.useState(false);
+  const url = React.useRef();
   const history = useHistory();
   const HandleCheck = async () => {
     setIsLoading(true);
@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <MainLayout>
-      <div className="flex h-screen">
+      <div className="flex h-screen bg-gray-900">
         <section className="m-auto">
           <div className="container flex flex-col px-5 py-8 mx-auto lg:items-center">
             <div className="flex flex-col w-full mb-8 text-left lg:text-center justify-center">

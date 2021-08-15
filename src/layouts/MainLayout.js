@@ -1,4 +1,4 @@
-const MainLayout = ({ children }: { children: React.ReactNode }) => {
+const MainLayout = ({ children }) => {
   return (
     <div className="md:px-4 mx-auto sm:px-6 xl:px-0 flex flex-col h-screen">
       {children}

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import SiteProvider from "./contexts/siteContext";
+import SiteProvider from "./contexts/siteContexts";
 import Details from "./pages/Details";
 
 function App() {
