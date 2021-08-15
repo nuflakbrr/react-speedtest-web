@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import axios from "axios";
-import { siteContext } from "../contexts/siteContexts";
+import { siteContext } from "../contexts/SiteContexts";
 import { useHistory } from "react-router-dom";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
