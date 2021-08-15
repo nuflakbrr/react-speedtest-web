@@ -6,7 +6,7 @@ const MainLayout = ({ children }) => {
       <footer className="p-5 border-t-2 border-opacity-20 border-blue-300">
         <div>
           <p className="text-center text-gray-200 dark:text-white">
-            © 2021 -
+            © 2021 -{" "}
             <a href="https://www.instagram.com/kbrnugroho/" className="text-gray-200 dark:text-white" target="_blank" rel="noreferrer">
               Naufal Akbar Nugroho
             </a>
